@@ -393,73 +393,73 @@ defmodule MeetupTest do
     assert Meetup.meetup(2013, 4, :sunday, :fourth) == {2013, 4, 28}
   end
 
-  # # @tag :pending
-  # test "last monday of march 2013" do
-  #   assert Meetup.meetup(2013, 3, :monday, :last) == {2013, 3, 25}
-  # end
-  #
-  # # @tag :pending
-  # test "last monday of april 2013" do
-  #   assert Meetup.meetup(2013, 4, :monday, :last) == {2013, 4, 29}
-  # end
-  #
-  # # @tag :pending
-  # test "last tuesday of may 2013" do
-  #   assert Meetup.meetup(2013, 5, :tuesday, :last) == {2013, 5, 28}
-  # end
-  #
-  # # @tag :pending
-  # test "last tuesday of june 2013" do
-  #   assert Meetup.meetup(2013, 6, :tuesday, :last) == {2013, 6, 25}
-  # end
-  #
-  # # @tag :pending
-  # test "last wednesday of july 2013" do
-  #   assert Meetup.meetup(2013, 7, :wednesday, :last) == {2013, 7, 31}
-  # end
-  #
-  # # @tag :pending
-  # test "last wednesday of august 2013" do
-  #   assert Meetup.meetup(2013, 8, :wednesday, :last) == {2013, 8, 28}
-  # end
-  #
-  # # @tag :pending
-  # test "last thursday of september 2013" do
-  #   assert Meetup.meetup(2013, 9, :thursday, :last) == {2013, 9, 26}
-  # end
-  #
-  # # @tag :pending
-  # test "last thursday of october 2013" do
-  #   assert Meetup.meetup(2013, 10, :thursday, :last) == {2013, 10, 31}
-  # end
-  #
-  # # @tag :pending
-  # test "last friday of november 2013" do
-  #   assert Meetup.meetup(2013, 11, :friday, :last) == {2013, 11, 29}
-  # end
-  #
-  # # @tag :pending
-  # test "last friday of december 2013" do
-  #   assert Meetup.meetup(2013, 12, :friday, :last) == {2013, 12, 27}
-  # end
-  #
-  # # @tag :pending
-  # test "last saturday of january 2013" do
-  #   assert Meetup.meetup(2013, 1, :saturday, :last) == {2013, 1, 26}
-  # end
-  #
-  # # @tag :pending
-  # test "last saturday of february 2013" do
-  #   assert Meetup.meetup(2013, 2, :saturday, :last) == {2013, 2, 23}
-  # end
-  #
-  # # @tag :pending
-  # test "last sunday of march 2013" do
-  #   assert Meetup.meetup(2013, 3, :sunday, :last) == {2013, 3, 31}
-  # end
-  #
-  # # @tag :pending
-  # test "last sunday of april 2013" do
-  #   assert Meetup.meetup(2013, 4, :sunday, :last) == {2013, 4, 28}
-  # end
+  # @tag :pending
+  test "last monday of march 2013" do
+    assert Meetup.meetup(2013, 3, :monday, :last) == {2013, 3, 25}
+  end
+
+  # @tag :pending
+  test "last monday of april 2013" do
+    assert Meetup.meetup(2013, 4, :monday, :last) == {2013, 4, 29}
+  end
+
+  # @tag :pending
+  test "last tuesday of may 2013" do
+    assert Meetup.meetup(2013, 5, :tuesday, :last) == {2013, 5, 28}
+  end
+
+  # @tag :pending
+  test "last tuesday of june 2013" do
+    assert Meetup.meetup(2013, 6, :tuesday, :last) == {2013, 6, 25}
+  end
+
+  # @tag :pending
+  test "last wednesday of july 2013" do
+    assert Meetup.meetup(2013, 7, :wednesday, :last) == {2013, 7, 31}
+  end
+
+  # @tag :pending
+  test "last wednesday of august 2013" do
+    assert Meetup.meetup(2013, 8, :wednesday, :last) == {2013, 8, 28}
+  end
+
+  # @tag :pending
+  test "last thursday of september 2013" do
+    assert Meetup.meetup(2013, 9, :thursday, :last) == {2013, 9, 26}
+  end
+
+  # @tag :pending
+  test "last thursday of october 2013" do
+    assert Meetup.meetup(2013, 10, :thursday, :last) == {2013, 10, 31}
+  end
+
+  # @tag :pending
+  test "last friday of november 2013" do
+    assert Meetup.meetup(2013, 11, :friday, :last) == {2013, 11, 29}
+  end
+
+  # @tag :pending
+  test "last friday of december 2013" do
+    assert Meetup.meetup(2013, 12, :friday, :last) == {2013, 12, 27}
+  end
+
+  # @tag :pending
+  test "last saturday of january 2013" do
+    assert Meetup.meetup(2013, 1, :saturday, :last) == {2013, 1, 26}
+  end
+
+  # @tag :pending
+  test "last saturday of february 2013" do
+    assert Meetup.meetup(2013, 2, :saturday, :last) == {2013, 2, 23}
+  end
+
+  # @tag :pending
+  test "last sunday of march 2013" do
+    assert Meetup.meetup(2013, 3, :sunday, :last) == {2013, 3, 31}
+  end
+
+  # @tag :pending
+  test "last sunday of april 2013" do
+    assert Meetup.meetup(2013, 4, :sunday, :last) == {2013, 4, 28}
+  end
 end
